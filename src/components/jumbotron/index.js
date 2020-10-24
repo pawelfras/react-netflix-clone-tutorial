@@ -2,7 +2,7 @@ import React from 'react';
 import Container from './styles/container';
 import Image from './styles/image';
 import Inner from './styles/inner';
-import { Item } from './styles/item';
+import Item from './styles/item';
 import Pane from './styles/pane';
 import SubTitle from './styles/subtitle';
 import Title from './styles/title';
