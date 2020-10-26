@@ -15,8 +15,9 @@ export const Inner = styled.div`
 
 export const Item = styled.div`
     color: white;
-    margin-bottom: 10px;
     max-width: 670px;
+    width: 100%;
+    margin: auto;
 
     &:first-of-type {
         margin-top: 3em;
@@ -40,7 +41,7 @@ export const Header = styled.div`
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
     font-size: 26px;
     font-weight: normal;
     align-items: center;

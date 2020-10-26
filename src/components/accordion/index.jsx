@@ -15,12 +15,12 @@ const AccordionTitle = ({ children }) => {
     return <Title>{children}</Title>;
 };
 
-const AccordionItem = ({ children, key }) => {
+const AccordionItem = ({ children, ...restProps }) => {
     const [toggleShow, setToggleShow] = useState(false);
 
     return (
         <ToggleContext.Provider value={{ toggleShow, setToggleShow }}>
-            <Item key={key}>{children}</Item>
+            <Item {...restProps}>{children}</Item>
         </ToggleContext.Provider>
     );
 };
